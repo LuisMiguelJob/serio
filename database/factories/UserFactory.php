@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Rol;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
@@ -26,6 +27,7 @@ class UserFactory extends Factory
             /* 'remember_token' => Str::random(10), */
 
             /* Por mientras */
+            /* 'rol_id' => Rol::inRandomOrder()->first()->id */
             'rol_id' => 1
         ];
     }

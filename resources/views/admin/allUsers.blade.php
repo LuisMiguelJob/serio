@@ -4,7 +4,7 @@
 @section('content')
     <h3>Users</h3>
 
-    <a class="btn btn-primary" href="#" role="button">Link</a>
+    <a class="btn btn-primary" href="{{ route('admin.addNewAdministrator') }}" role="button">Add New Administrator</a>
 
     <table id="users" class="table table-striped table-bordered" style="width:100%">
         <thead>

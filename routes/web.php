@@ -20,6 +20,10 @@ Route::get('/', function () {
 
 // Admin routes
 
-// GET // ADMIN
-Route::get('allUsers', [UserController::class, 'allUsers'])->name('allUsers');
-Route::get('addNewUser', [UserController::class, 'addNewUser'])->name('addNewUser');
+// ADMIN
+// GET 
+Route::get('admin/allUsers', [UserController::class, 'allUsers'])->name('admin.allUsers');
+Route::get('admin/addNewAdministrator', [UserController::class, 'addNewAdministrator'])->name('admin.addNewAdministrator');
+
+// POST
+Route::post('admin/createAdministrator', [UserController::class, 'createAdministrator'])->name('admin.createAdministrator');

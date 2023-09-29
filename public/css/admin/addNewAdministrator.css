@@ -1,0 +1,17 @@
+.card-body.addNewAdministrator:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* transform: translateY(0px); */
+    border-radius: 30px;
+}
+
+.card.addNewAdministrator{
+    border-radius: 30px;
+} 
+
+.card.title{
+    border: 0px;
+}
+
+#titleAddNewAdministrator{
+    font-weight: bold;
+}

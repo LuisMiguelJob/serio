@@ -24,6 +24,6 @@ class UserSeeder extends Seeder
             'rol_id' => $rolAdministrator->id
         ]);
 
-        User::factory(20)->create();
+        User::factory(5)->create();
     }
 }
