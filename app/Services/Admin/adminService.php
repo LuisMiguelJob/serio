@@ -21,4 +21,13 @@ class AdminService {
         $administrator->fill($data);
         $administrator->save();
     }
+
+    // Funciones aparte
+    public function getTotalAdministrators(){
+        $total = User::whereHas('rol', function ($query) {
+            $query->where('name', 'Administrator');
+        })->count();
+
+        return $total;
+    }
 }

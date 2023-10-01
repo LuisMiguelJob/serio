@@ -2,3 +2,26 @@
 .btn {
     background-color: #718ee5;
 }
+
+#titleTotalAdministrators{
+    font-weight:bolder;
+    font-size: 28px;
+    background-color: #a7baf2;
+    color: white;
+}
+
+#cardTotalAdministrator{
+    width: auto;
+    text-align: center;
+    border: 1px solid #4e73df;
+
+    margin: 10px;
+}
+
+#filaTotalAdministrator{
+    justify-content: center;
+}
+
+#intTotalAdministrators{
+    font-weight: bold;
+}
